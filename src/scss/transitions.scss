@@ -1,0 +1,12 @@
+.window-enter-active,
+.window-leave-active {
+  transition: opacity 0.25s ease-in-out;
+}
+.window-enter,
+.window-leave-to {
+  opacity: 0;
+}
+.window-enter-to,
+.window-leave {
+  opacity: 1;
+}

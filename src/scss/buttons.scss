@@ -1,0 +1,18 @@
+button {
+  box-sizing: border-box;
+  border: none;
+  background: $surface;
+  box-shadow: $border-raised-outer, $border-raised-inner;
+  border-radius: 0;
+
+  min-width: 75px;
+  min-height: 23px;
+  padding: 0 12px;
+}
+button:not(:disabled):active {
+  box-shadow: $border-sunken-outer, $border-sunken-inner;
+  padding: 2px 11px 0 13px;
+}
+button::-moz-focus-inner {
+  border: 0;
+}

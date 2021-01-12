@@ -1,0 +1,74 @@
+.draggableContainer {
+  position: absolute;
+  border: black solid 2px;
+  background-color: white;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.29);
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  overflow-y: scroll;
+  overflow-x: hidden;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .draggableHeader {
+    position: fixed;
+    width: inherit;
+    height: 22px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    background-color: #fbfbef;
+    font: bold 14px 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
+    cursor: url('https://i.imgur.com/m5J1hiZ.png'), auto;
+    z-index: 500;
+
+    .draggable-header-text {
+      padding: 2px;
+      display: absolute;
+    }
+
+    .title-bar-controls {
+      display: flex;
+      margin: 0px 4px 0px 0px;
+      padding-top: 2px;
+      position: absolute;
+      float: right;
+      top: 2px;
+      right: 0px;
+
+      button {
+        cursor: url('https://i.imgur.com/m5J1hiZ.png'), auto;
+        padding: 0;
+        display: block;
+        min-width: 16px;
+        min-height: 14px;
+        margin-left: 1px;
+        background: $surface;
+        box-shadow: $border-raised-outer, $border-raised-inner;
+      }
+      button:not(:disabled):active {
+        box-shadow: $border-sunken-outer, $border-sunken-inner;
+      }
+
+      button[aria-label='Minimize'] {
+        background-image: url('../assets/icons/minimize.svg');
+        background-repeat: no-repeat;
+        background-position: bottom 3px left 3px;
+        border: none;
+      }
+
+      button[aria-label='Maximize'] {
+        background-image: url('../assets/icons/maximize.svg');
+        background-repeat: no-repeat;
+        background-position: top 2px left 3px;
+        border: none;
+      }
+      button[aria-label='Close'] {
+        background-image: url('../assets/icons/close.svg');
+        background-repeat: no-repeat;
+        background-position: top 3px left 4px;
+        border: none;
+      }
+    }
+  }
+}
