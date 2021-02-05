@@ -185,7 +185,7 @@ export default {
 .content {
   margin-top: 0px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minMax(17rem, 1fr));
+  grid-template-columns: repeat(4, minMax(17rem, 1fr));
   grid-template-rows: repeat(auto-fit, minMax(18rem, 12rem));
   gap: 10px 10px;
   padding: 10px;
