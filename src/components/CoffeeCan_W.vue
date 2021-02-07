@@ -126,13 +126,15 @@ export default {
 .content {
   display: grid;
   margin-bottom: 5vh;
-  grid-template-columns: repeat(4, minMax(250px, 1fr));
+  grid-template-columns: repeat(4, minMax(17rem, 1fr));
   grid-template-rows: minMax(22rem, 22rem) minMax(26rem, 28rem) minMax(22rem, 22rem);
   grid-template-areas:
     'tile1 video video tile4'
     'tile5 feedbackDesign feedbackDesign tile8'
     'tile9 handle handle tile12';
   gap: 10px 20px;
+  // justify-content: space-around;
+  // justify-items: center;
   padding: 10px;
   text-align: left;
 

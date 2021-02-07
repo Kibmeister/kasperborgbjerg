@@ -125,6 +125,7 @@ export default {
   grid-template-rows: 50px repeat(4, 1fr);
   gap: 10px 10px;
   text-align: left;
+  padding: 0rem 2rem;
 
   .intro {
     grid-column: 1/4;
