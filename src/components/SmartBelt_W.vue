@@ -152,7 +152,7 @@ export default {
 @import '@/scss/variables';
 @import '@/scss/draggableContainer';
 .header {
-  margin-top: 30px;
+  margin-top: 5vh;
   text-align: center;
 }
 .content {
@@ -206,7 +206,7 @@ export default {
     }
   }
   .videoDescription {
-    place-self: center center;
+    place-self: center start;
     grid-column: 2/3;
     grid-row: 4/5;
     

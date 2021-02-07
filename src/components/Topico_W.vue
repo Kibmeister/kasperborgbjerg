@@ -113,7 +113,7 @@ export default {
 @import '@/scss/variables';
 @import '@/scss/draggableContainer';
 .header {
-  margin-top: 30px;
+  margin-top: 5vh;
   text-align: center;
 }
 .content {
@@ -139,8 +139,9 @@ export default {
     grid-row: 3/4;
   }
   .videoDescription {
-    padding-top: 40px;
-    flex-basis: content;
+    align-self: center;
+    max-width: 12rem;
+    
   }
   .video {
     position: relative;
