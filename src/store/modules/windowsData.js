@@ -6,7 +6,7 @@ const windowsData = {
         id: 'id_aboutMe',
         header: 'ABOUTME',
         intro:
-          'Hello, I am a student in my early twenties that have a passion for IT, Web Design and Product Design. I am currently attendig a bachelor degreee in IT & Product Devlopment at Aarhus University, and created and designed this website to showcase the different projects I am making throughout my studies.  This is my own website written in JS with VueJS as my tool.',
+          'Hello, I am a student in my early twenties that have a passion for IT, Web Design and Product Design. I am currently attendig a bachelor degreee in IT & Product Devlopment at Aarhus University, and created and designed this website to showcase the different projects I have been developing in collaboration with my study group, throughout my studies. This is my own website, written in JS with VueJS as my tool.',
         visibility: true,
         zIndex: 50,
         top: 200,
@@ -31,7 +31,7 @@ const windowsData = {
         id: 'id_clippy',
         header: 'Clippy can help',
         intro:
-          'Hey, you have just landed on Kasper Borgbjergs website. The projects showcased here are created by him, along side with this website itself.',
+          'Hey, you have just landed on Kasper Borgbjergs website. The projects showcased here are apaprt of his design portifolio, along side with this website itself.',
         visibility: false,
         zIndex: 10,
         top: 50,
@@ -41,10 +41,8 @@ const windowsData = {
         id: 'id_topico',
         header: 'TOPICO',
         title: 'Linguistic learing tool for the elementry school',
-        intro:
-          'Topico is an online dictionary for the individual classes to use. It is aimed for the pupils in a sixth grade English class, designed on the basis of observations and empiricaldata that we have gathered and analyzed. It is used to store verbal descriptions of relevant words and topics learned in class in audio files. This project fits in the category of EduTech, which covers the ' +
-          'study and ethical practice of facilitating learning and improving performance by creating, using and managing appropriate technological processes and resources'.italics() +
-          '.',
+        intro: ''
+          ,
         videoID: '444281811',
         videoTitle: 'Demo of the prototype',
         videoDescription:
