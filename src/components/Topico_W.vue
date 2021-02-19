@@ -47,7 +47,7 @@
       <div class="mediaBox">
         <h5>How it works</h5>
         <p>
-          The game works as following. Four pupils sits around the device. Then
+          The game works as following. Four pupils sit around the device. Then
           they push the main button on the top of the device, which makes four
           different words appear, where they only can see one word each. These
           are the main words. They all have three corresponding help words,
