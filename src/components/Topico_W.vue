@@ -28,7 +28,7 @@
         <p>
           Topico is an online dictionary for the individual classes to use. It
           is aimed for the pupils in a sixth grade English class, designed on
-          the basis of observations and empiricaldata that we have gathered and
+          the basis of observations and empirical data that we have gathered and
           analyzed. It is used to store verbal descriptions of relevant words
           and topics learned in class in audio files. This project fits in the
           category of EduTech, which covers the study and ethical practice of
@@ -81,24 +81,9 @@
       </div>
       <div class="mediaBox">
         <ScenarioSVG class="svg"></ScenarioSVG>
-        <h5>Scenario interacion</h5>
+        <h5>Scenario interaction</h5>
       </div>
 
-      <div class="mediaBox">
-        <h5>Empirical data</h5>
-        <p>
-          From the observations we made visiting an Elementary school, sixth
-          grade english class, we got different views on the pupils and their
-          work methods. We wrote notes about how they acted and used the English
-          language compared to the Danish. We also saw, how they cooperated with
-          each other and how they helped each other. Furthermore, we saw how the
-          the pupil’s relation with the teacher was like. Information was gained
-          with the methods from Ethnographic field methods, Guiding Principles
-          of Ethnography(NaturalSettings). We also had small conversations and
-          semi-structured interviews with the teacher and pupils which gave an
-          insight in their daily work and activities.
-        </p>
-      </div>
       <div class="mediaBox">
         <h5>Concept</h5>
         <p>
@@ -115,11 +100,47 @@
         </p>
       </div>
       <div class="mediaBox">
-        <h5></h5>
+        <h5>Empirical data</h5>
         <p>
-          It is hard to control, whether the pupils speak Danish or English,
-          when the teacher is not nearby. It gave them an advantage of a common
-          understanding, when they discuss the words.
+          From the observations we made visiting an Elementary school, sixth
+          grade english class, we got different views on the pupils and their
+          work methods. We wrote notes about how they acted and used the English
+          language compared to the Danish. We also saw, how they cooperated with
+          each other and how they helped each other. Furthermore, we saw how the
+          the pupil’s relation with the teacher was like. Information was gained
+          with the methods from Ethnographic field methods, Guiding Principles
+          of Ethnography(NaturalSettings). We also had small conversations and
+          semi-structured interviews with the teacher and pupils which gave an
+          insight in their daily work and activities.
+        </p>
+      </div>
+      <div class="mediaBox">
+        <h5>Findings</h5>
+        <p>
+          Topico has been designed with the pupils learning abilities in mind.
+          As a concept and product, the idea has essentially been to make a
+          product that can aid learning among elementary school pupils. Putting
+          this pursuit to fruition has taken then form as device and webapp
+          solution, where both the relation between the pupils and teacher has
+          been a major focus. From the field studies, several challenges raised
+          to the surface in terms of how to teaching could be enhanced. One of
+          these challenges was how some pupils was left of the discussions and
+          dialogs in English class, and the dynamics of words exchange were
+          mainly constituent of a few active pupils and the teacher. <br />
+          <br />
+          Furthermore, the same issues were visible during group work, as the
+          same active pupils would conduct the dialogs, and thus exclude the
+          less active students. <br />
+          <br />
+          This is where Topico fills in the blanks, enabling and encouraging an
+          active learning space for all types of pupils, focusing on language
+          exchange. Furthermore, the teacher can also assist more pupils at the
+          same time as he/she can correct and set the degree of difficulty of
+          the words used in each game round. <br /><br />
+          Whether this smart connected learning tool has a place in the
+          classrooms of today remains to see, this will be up to further
+          investigation and testing to clarify, however the analysis of the
+          demand of such a tool is without doubt existent.
         </p>
       </div>
     </div>
@@ -213,8 +234,8 @@ export default {
       grid-row: 3/4;
     }
     &:nth-of-type(10) {
-      padding-top: 15px;
       grid-row: 3/4;
+      grid-column: 3/5;
     }
   }
 }
