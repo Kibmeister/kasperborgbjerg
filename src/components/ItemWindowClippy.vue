@@ -71,9 +71,10 @@ export default {
   }
   .content {
     margin-top: 10px;
-    padding: 10px;
+    padding: 0.5vh;
   }
   button {
+    position: relative;
     font-size: 12px;
     padding: 5px;
     cursor: url('https://i.imgur.com/m5J1hiZ.png'), auto;

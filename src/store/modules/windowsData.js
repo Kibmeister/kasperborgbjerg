@@ -31,7 +31,7 @@ const windowsData = {
         id: 'id_clippy',
         header: 'Clippy can help',
         intro:
-          'Hey, you have just landed on Kasper Borgbjergs website. The projects showcased here are apaprt of his design portifolio, along side with this website itself.',
+          'Hey, you have just landed on Kasper Borgbjergs website. The projects showcased here are made by him, along side with this website itself.',
         visibility: false,
         zIndex: 10,
         top: 50,
