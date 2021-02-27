@@ -26,7 +26,7 @@
         {{ content.intro }}
       </div>
       <h4 id="id_imgTitle">Our awesome belt</h4>
-      <img src="https://i.imgur.com/YnyAQe8.png" title="source: imgur.com" id="id_img_1" />
+      <img src="../assets/smartbelt/belt.png" title="source: locally sourced" id="id_img_1" />
       <div class="componentsList">
         <h4>Components list</h4>
         <ul>
@@ -109,16 +109,16 @@
       </div>
       <div class="prototypeDesign sixth">
         <h5>PCB backside</h5> 
-        <img src="https://i.imgur.com/teLosWG.png?1" id="id_backSideIMG" />
+        <img src="../assets/smartbelt/pcbBack.png" id="id_backSideIMG" />
       </div>
 
       <div class="exploaded">
         <h5>Exploaded 3D model</h5>
-        <img src="https://i.imgur.com/cLmFguD.png" id="id_exploadedIMG" />
+        <img src="../assets/smartbelt/exploaded.png" id="id_exploadedIMG" />
       </div>
       <div class="pcb">
         <h5>PCB with components</h5>
-        <img src="https://i.imgur.com/9JA5d8V.png" />
+        <img src="../assets/smartbelt/pcb.png" />
       </div>
     </div>
   </div>
