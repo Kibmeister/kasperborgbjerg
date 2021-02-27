@@ -55,7 +55,7 @@
         </div>
 
         <div class="coffeecan" lang="img">
-          <img src="../assets/coffeeCan/feedback.png" />
+          <img src="../assets/coffeeCan/feedback.png" rel="preload"/>
           <h5>Feedback Model</h5>
         </div>
 
@@ -67,7 +67,7 @@
           On the inside of the 3D printed handle, four coin vibration motors are glued to a ninja flex material which fits through the cut outs in the handle. On the other side of the handle, a photoresistor is mounted, to detect if the handle is grabbed. Using PWM (pulse width modulation), the analogue motors are controlled through the waveform signals where a higher PWM signal is equal to a higher voltage, which results in a higher vibration amplitude and frequency.
         </div>
         <div class="coffeecan " lang="img">
-          <img src="../assets/coffeeCan/handle.jpg" />
+          <img src="../assets/coffeeCan/handle.jpg" rel="preload"/>
           <h5>Handle</h5>
         </div>
         <div class="coffeecan ">

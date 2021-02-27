@@ -72,15 +72,15 @@
         </p>
       </div>
       <div class="mediaBox">
-        <GroupSVG class="svg"></GroupSVG>
+        <GroupSVG class="svg" rel="preload"></GroupSVG>
         <h5>Interaction with four students</h5>
       </div>
       <div class="mediaBox">
-        <IlluSVG class="svg"></IlluSVG>
+        <IlluSVG class="svg" rel="preload"></IlluSVG>
         <h5>Device / Cloud model</h5>
       </div>
       <div class="mediaBox">
-        <ScenarioSVG class="svg"></ScenarioSVG>
+        <ScenarioSVG class="svg" rel="preload"></ScenarioSVG>
         <h5>Scenario interaction</h5>
       </div>
 

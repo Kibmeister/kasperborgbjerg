@@ -72,22 +72,22 @@
 
         <div class="mediaBox" lang="img">
           <h5>Personal profile page (Frame.1)</h5>
-          <img src="../assets/cleaver/uno.png" />
+          <img src="../assets/cleaver/uno.png" rel="preload" />
         </div>
 
         <div class="mediaBox" lang="img">
           <h5>Chat window (Frame.2)</h5>
-          <img src="../assets/cleaver/dos.png" />
+          <img src="../assets/cleaver/dos.png" rel="preload"/>
         </div>
 
         <div class="mediaBox" lang="img">
           <h5>Creating event (Frame.3)</h5>
-          <img src="../assets/cleaver/tres.png" />
+          <img src="../assets/cleaver/tres.png" rel="preload" />
         </div>
 
         <div class="mediaBox" lang="img">
           <h5>Event appears on map (Frame.4)</h5>
-          <img src="../assets/cleaver/quatro.png" />
+          <img src="../assets/cleaver/quatro.png" rel="preload"/>
         </div>
         <div class="mediaBox">
           <h5>Paper mock-ups</h5>
@@ -118,19 +118,19 @@
 
         <div class="mediaBox" lang="img">
           <h5>Personal profile page</h5>
-          <img src="../assets/cleaver/p1.png" />
+          <img src="../assets/cleaver/p1.png" rel="preload"/>
         </div>
         <div class="mediaBox" lang="img">
           <h5>Chat window</h5>
-          <img src="../assets/cleaver/p2.png" />
+          <img src="../assets/cleaver/p2.png" rel="preload"/>
         </div>
         <div class="mediaBox" lang="img">
           <h5>Creating event</h5>
-          <img src="../assets/cleaver/p3.png" />
+          <img src="../assets/cleaver/p3.png" rel="preload"/>
         </div>
         <div class="mediaBox" lang="img">
           <h5>Event appears on map</h5>
-          <img src="../assets/cleaver/p4.png" />
+          <img src="../assets/cleaver/p4.png" rel="preload"/>
         </div>
         <div class="mediaBox">
           <h5>Fragments HiFi prototype</h5>
