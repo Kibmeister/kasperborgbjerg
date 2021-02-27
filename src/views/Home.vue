@@ -50,7 +50,7 @@
       ></ItemWindowClippy>
     </transition>
 
-    <transition name="window">
+    <!-- <transition name="window">
       <Topico_W
         ref="topico"
         v-if="this.$store.getters.windowVisibility(this.$store.state.w.windowItems[3].id)"
@@ -68,7 +68,7 @@
         :zIndex="this.$store.state.w.windowItems[3].zIndex"
         :contentColor="this.$store.state.w.windowItems[3].contentColor"
       ></Topico_W>
-    </transition>
+    </transition> -->
 
     <transition name="window">
       <SmartBelt_W
