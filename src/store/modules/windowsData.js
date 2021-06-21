@@ -107,6 +107,22 @@ const windowsData = {
         height: 450,
         contentColor: '#66B0BD',
       },
+      {
+        id: 'id_coaxer',
+        header: 'COAXER',
+        title:
+          'A task-management for a student utilizing ultra-personalized design',
+        intro: 'yaddayaddaydaad',
+        videoID: '498087574',
+        videoDesicription: 'Demo of design',
+        visibility: true,
+        zIndex: 155,
+        top: 0,
+        left: 150,
+        width: 600,
+        height: 450,
+        contentColor: '#EFD3AA',
+      },
     ],
   },
 };

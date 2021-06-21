@@ -72,7 +72,7 @@
         </p>
       </div>
       <div class="mediaBox">
-        <GroupSVG class="svg" rel="preload"></GroupSVG>
+          <GroupSVG class="svg" rel="preload"></GroupSVG>
         <h5>Interaction with four students</h5>
       </div>
       <div class="mediaBox">

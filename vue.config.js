@@ -8,7 +8,14 @@ module.exports = {
       .use('vue-svg-loader')
         .loader('vue-svg-loader')
         .end()
-  
+
+    config.module
+    .rule('svg-background')
+    .test(/\/svg\/background\/.*\.svg$/)
+    .use('svg-url-loader')
+      .loader('svg-url-loader')
+      .end()    
+
     config.module
       .rule('svg-file')
       .test(/\/svg\/headerButton\/.*\.svg$/)

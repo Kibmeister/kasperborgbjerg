@@ -45,6 +45,13 @@
         :subtitle="this.$store.state.projectsFolderItems[3].subtitle"
         v-on:click.native.stop="showWindow('id_coffeecan')"
       ></ProjectItem>
+       <ProjectItem
+        ref="coaxer"
+        :url="this.$store.state.projectsFolderItems[4].url"
+        :id="this.$store.state.projectsFolderItems[4].id"
+        :subtitle="this.$store.state.projectsFolderItems[4].subtitle"
+        v-on:click.native.stop="showWindow('id_coaxer')"
+      ></ProjectItem>
     </div>
   </div>
 </template>

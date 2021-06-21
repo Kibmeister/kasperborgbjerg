@@ -127,6 +127,24 @@
         :contentColor="this.$store.state.w.windowItems[6].contentColor"
       ></CoffeeCan_W>
     </transition>
+    <transition name="window">
+      <Coaxer_W
+        ref="coaxer"
+        v-if="this.$store.getters.windowVisibility(this.$store.state.w.windowItems[7].id)"
+        :content="{
+          header: this.$store.state.w.windowItems[7].header,
+          title: this.$store.state.w.windowItems[7].title,
+          intro: this.$store.state.w.windowItems[7].intro,
+          videoID: this.$store.state.w.windowItems[7].videoID,
+          videoDescription: this.$store.state.w.windowItems[7].videoDescription
+        }"
+        :width="this.$store.state.w.windowItems[7].width"
+        :height="this.$store.state.w.windowItems[7].height"
+        :id="this.$store.state.w.windowItems[7].id"
+        :zIndex="this.$store.state.w.windowItems[7].zIndex"
+        :contentColor="this.$store.state.w.windowItems[7].contentColor"
+      ></Coaxer_W>
+    </transition>
   </div>
 </template>
 
@@ -178,12 +196,4 @@ export default {
   height: 100%;
   background-color: #eafcf2;
 }
-// .home ::v-deep #id_clippyDesktop {
-//   top: 370px;
-//   left: 1000px;
-//   @media screen and (max-width: 1000px) {
-//     top: 370px;
-//     left: 600px;
-//   }
-// }
 </style>

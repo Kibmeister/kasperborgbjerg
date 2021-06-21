@@ -13,10 +13,12 @@ import Topico_W from './components/Topico_W.vue'
 import SmartBelt_W from './components/SmartBelt_W.vue'
 import Cleaver_W from './components/Cleaver_W.vue'
 import CoffeeCan_W from './components/CoffeeCan_W.vue'
+import Coaxer_W from './components/Coaxer_W'
 import vueVimeoPlayer from 'vue-vimeo-player'
 import GroupSVG from './assets/svg/pics/topicoDevice.svg';
 import IlluSVG from './assets/svg/pics/illu.svg';
 import ScenarioSVG from './assets/svg/pics/scenario.svg';
+
 
 
 
@@ -31,9 +33,11 @@ Vue.component('Topico_W', Topico_W)
 Vue.component('SmartBelt_W', SmartBelt_W)
 Vue.component('Cleaver_W', Cleaver_W)
 Vue.component('CoffeeCan_W', CoffeeCan_W)
+Vue.component('Coaxer_W', Coaxer_W)
 Vue.component('GroupSVG', GroupSVG)
 Vue.component('IlluSVG', IlluSVG)
 Vue.component('ScenarioSVG', ScenarioSVG)
+
 
 Vue.use(vueVimeoPlayer)
 window.$ = window.jQuery = require('jquery');

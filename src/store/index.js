@@ -39,6 +39,11 @@ export default new Vuex.Store({
         id: 'id_coffeecan',
         url: 'globe.png',
         subtitle: 'COFFEECAN'
+      },
+      {
+        id: 'id_coaxer',
+        url: 'magnifyingGlass.png',
+        subtitle: 'COAXER'
       }
     ],
     bodyHeight: 0,
