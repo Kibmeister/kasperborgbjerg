@@ -27,7 +27,7 @@
       </div>
 
       <div class="content">       
-        <!-- <CoaxerSVG class="svg" rel="preload"></CoaxerSVG> -->
+        <!-- <img src="../assets/svg/background/Coaxer.jpg" width="1920" height="1080" > -->
       </div>
     </div>
   </transition>
@@ -68,8 +68,12 @@ export default {
   cursor: url('https://i.imgur.com/m5J1hiZ.png') 15 15, auto;
 }
 .content {
-  background-image: url('../assets/svg/background/Coaxer.svg');
-  height: 100vh;
-  width: 100vw;
+  background-image: url('../assets/svg/background/Coaxer-01.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  margin-top: 2vh;
+  margin-bottom: 8vh;
 }
 </style>
