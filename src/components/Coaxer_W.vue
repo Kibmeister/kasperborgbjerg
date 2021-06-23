@@ -74,6 +74,6 @@ export default {
   height: 100%;
   width: 100%;
   margin-top: 2vh;
-  margin-bottom: 8vh;
+  margin-bottom: 10vh;
 }
 </style>
