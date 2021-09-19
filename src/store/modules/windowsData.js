@@ -6,7 +6,7 @@ const windowsData = {
         id: 'id_aboutMe',
         header: 'ABOUTME',
         intro:
-          'Hello there, and welcome to my website. I am master student in my early twenties that have a passion for IT, Web and Product design, and have a bunch of interesting and cool projects under my belt, that I would like to showcase with you here. These vary from native mobile apps to tangible Hi-Fi prototypes and everything in between.  I have designed and developed this site myself, written in JS, with VueJS as my tool.',
+          'Hello there, and welcome to my website. I am a master student in my early twenties that have a passion for IT, Web and Product design, and have a bunch of interesting and cool projects under my belt, that I would like to showcase with you here. These vary from native mobile apps to tangible Hi-Fi prototypes and everything in between.  I have designed and developed this site myself, written in JS, with VueJS as my tool.',
         visibility: true,
         zIndex: 50,
         top: 200,
