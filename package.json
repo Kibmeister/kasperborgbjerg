@@ -4,9 +4,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --openssl-legacy-provider start",
-    "lint": "vue-cli-service lint"
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build && next export"
+    
+    // "serve": "vue-cli-service serve",
+    // "build": "vue-cli-service build",
+    // "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "clippyjs": "0.0.3",
