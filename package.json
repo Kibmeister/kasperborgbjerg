@@ -7,18 +7,18 @@
     "serve": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
     "build": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
     "lint": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service lint"
-    },
+  },
   "dependencies": {
     "clippyjs": "0.0.3",
-    "core-js": "^3.24.1",
-    "gsap": "^3.11.0",
-    "jquery": "^3.6.0",
+    "core-js": "^3.29.0",
+    "gsap": "^3.11.4",
+    "jquery": "^3.6.3",
     "jquery-ui": "^1.13.2",
     "latest-version": "^7.0.0",
-    "moment-timezone": "^0.5.35",
+    "moment-timezone": "^0.5.41",
     "svg-url-loader": "^7.1.1",
-    "vue": "^2.7.10",
-    "vue-router": "^3.6.3",
+    "vue": "^2.7.14",
+    "vue-router": "^3.6.5",
     "vue-svg-loader": "^0.16.0",
     "vue-vimeo-player": "^0.1.2",
     "vuex": "^3.6.2"
@@ -36,9 +36,9 @@
     "eslint-plugin-prettier": "^3.4.1",
     "eslint-plugin-vue": "^6.2.2",
     "prettier": "^1.19.1",
-    "sass": "^1.54.5",
+    "sass": "^1.58.3",
     "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.7.10"
+    "vue-template-compiler": "^2.7.14"
   },
   "eslintConfig": {
     "root": true,
