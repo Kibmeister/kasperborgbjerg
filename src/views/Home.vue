@@ -127,6 +127,7 @@
         :contentColor="this.$store.state.w.windowItems[6].contentColor"
       ></CoffeeCan_W>
     </transition>
+
     <transition name="window">
       <Coaxer_W
         ref="coaxer"
@@ -144,6 +145,25 @@
         :zIndex="this.$store.state.w.windowItems[7].zIndex"
         :contentColor="this.$store.state.w.windowItems[7].contentColor"
       ></Coaxer_W>
+    </transition>
+     
+     <transition name="window">
+      <RingmerkingNO_W
+        ref="ringmerkingNO"
+        v-if="this.$store.getters.windowVisibility(this.$store.state.w.windowItems[8].id)"
+        :content="{
+          header: this.$store.state.w.windowItems[8].header,
+          title: this.$store.state.w.windowItems[8].title,
+          intro: this.$store.state.w.windowItems[8].intro,
+          videoID: this.$store.state.w.windowItems[8].videoID,
+          videoDescription: this.$store.state.w.windowItems[8].videoDescription
+        }"
+        :width="this.$store.state.w.windowItems[8].width"
+        :height="this.$store.state.w.windowItems[8].height"
+        :id="this.$store.state.w.windowItems[8].id"
+        :zIndex="this.$store.state.w.windowItems[8].zIndex"
+        :contentColor="this.$store.state.w.windowItems[8].contentColor"
+      ></RingmerkingNO_W>
     </transition>
   </div>
 </template>

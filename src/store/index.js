@@ -11,48 +11,53 @@ export default new Vuex.Store({
       {
         id: 'id_projects',
         url: 'folder.png',
-        subtitle: 'PROJECTS'
+        subtitle: 'PROJECTS',
       },
       {
         id: 'id_clippy',
         url: 'clippy.png',
-        subtitle: 'ASK CLIPPY'
-      }
+        subtitle: 'ASK CLIPPY',
+      },
     ],
     projectsFolderItems: [
       {
         id: 'id_topico',
         url: 'favoritesFolder.png',
-        subtitle: 'TOPICO'
+        subtitle: 'TOPICO',
       },
       {
         id: 'id_smartBelt',
         url: 'gemFolder.png',
-        subtitle: 'SMARTBELT'
+        subtitle: 'SMARTBELT',
       },
       {
         id: 'id_cleaver',
         url: 'chatFolder.png',
-        subtitle: 'CLEAVER'
+        subtitle: 'CLEAVER',
       },
       {
         id: 'id_coffeecan',
         url: 'globe.png',
-        subtitle: 'COFFEECAN'
+        subtitle: 'COFFEECAN',
       },
       {
         id: 'id_coaxer',
         url: 'magnifyingGlass.png',
-        subtitle: 'COAXER'
-      }
+        subtitle: 'COAXER',
+      },
+      {
+        id: 'id_ringmerkingNO',
+        url: 'mainFolder.png',
+        subtitle: 'Ringmerking.no',
+      },
     ],
     bodyHeight: 0,
-    bodyWidth: 0
+    bodyWidth: 0,
   },
   mutations: {
     setBodyMeasures(state, body) {
-      state.bodyWidth = body.width
-      state.bodyHeight = body.height
+      state.bodyWidth = body.width;
+      state.bodyHeight = body.height;
     },
     setGlobalZindex(state, id) {
       state.w.windowItems.find((i) => i.id === id).zIndex =
@@ -74,19 +79,20 @@ export default new Vuex.Store({
     },
     showWindow(state, id) {
       state.w.windowItems.find((i) => i.id === id).visibility = true;
-    }
+    },
   },
   getters: {
     bodyHeight: (state) => state.bodyHeight,
     bodyWidth: (state) => state.bodyWidth,
-    windowVisibility: (state) => (id) => state.w.windowItems.find((i) => i.id === id).visibility,
-    windowTop: (state) => (id) => state.w.windowItems.find((i) => i.id === id).top,
-    windowLeft: (state) => (id) => state.w.windowItems.find((i) => i.id === id).left
+    windowVisibility: (state) => (id) =>
+      state.w.windowItems.find((i) => i.id === id).visibility,
+    windowTop: (state) => (id) =>
+      state.w.windowItems.find((i) => i.id === id).top,
+    windowLeft: (state) => (id) =>
+      state.w.windowItems.find((i) => i.id === id).left,
   },
   actions: {},
   modules: {
-    w: windowsData
-  }
-
-})
-
+    w: windowsData,
+  },
+});

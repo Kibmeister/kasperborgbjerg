@@ -3,9 +3,9 @@
     ref="draggableContainer"
     class="draggableContainer"
     v-bind:style="{
-      zIndex: zIndex
+      zIndex: zIndex,
     }"
-   @mousedown="zIndexToggle"
+    @mousedown="zIndexToggle"
   >
     <div class="draggableHeader" @mousedown="dragMouseDown">
       <div class="draggable-header-text">{{ header }}</div>
@@ -38,7 +38,7 @@
         :subtitle="this.$store.state.projectsFolderItems[2].subtitle"
         v-on:click.native.stop="showWindow('id_cleaver')"
       ></ProjectItem>
-       <ProjectItem
+      <ProjectItem
         ref="coffeecan"
         :url="this.$store.state.projectsFolderItems[3].url"
         :id="this.$store.state.projectsFolderItems[3].id"
@@ -51,6 +51,13 @@
         :id="this.$store.state.projectsFolderItems[4].id"
         :subtitle="this.$store.state.projectsFolderItems[4].subtitle"
         v-on:click.native.stop="showWindow('id_coaxer')"
+      ></ProjectItem>
+      <ProjectItem
+        ref="ringmerking.no"
+        :url="this.$store.state.projectsFolderItems[5].url"
+        :id="this.$store.state.projectsFolderItems[5].id"
+        :subtitle="this.$store.state.projectsFolderItems[5].subtitle"
+        v-on:click.native.stop="showWindow('id_ringmerkingNO')"
       ></ProjectItem>
     </div>
   </div>
@@ -65,16 +72,15 @@ export default {
     zIndex: Number,
     id: String,
     width: Number,
-    height: Number 
+    height: Number,
   },
   methods: {
     showWindow(id) {
       this.$store.commit('showWindow', id);
       this.$store.commit('setGlobalZindex', id);
-      
-    }
+    },
   },
-  mixins: [windowScript]
+  mixins: [windowScript],
 };
 </script>
 
@@ -82,12 +88,12 @@ export default {
 // TODO: prevent windows form shrinking beyond less width and height
 @import '@/scss/variables';
 @import '@/scss/draggableContainer';
-.draggableContainer{
+.draggableContainer {
   //min-width: 350px;
 }
-  .content {
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  }
+.content {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
 </style>
